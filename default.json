@@ -4,6 +4,6 @@
     "config:recommended"
   ],
   "schedule": [
-    "on saturday"
+    "before 9am on saturday"
   ]
 }
