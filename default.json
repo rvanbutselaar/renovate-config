@@ -11,6 +11,15 @@
       "matchUpdateTypes": ["patch"],
       "matchCurrentVersion": "!/^0/",
       "automerge": true
-    }
+    },
+    {
+      "groupName": "github workflows",
+      "matchManagers": [
+        "github-actions"
+      ],
+      "matchFileNames": [
+        ".github/workflows/**"
+      ]
+    }    
   ]  
 }
