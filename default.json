@@ -13,6 +13,12 @@
       "automerge": true
     },
     {
+      "groupName": "npm updates",
+      "matchManagers": [
+        "npm"
+      ]
+    },
+    {
       "groupName": "github workflows",
       "matchManagers": [
         "github-actions"
@@ -20,6 +26,6 @@
       "matchFileNames": [
         ".github/workflows/**"
       ]
-    }    
-  ]  
+    }
+  ]
 }
